@@ -1,0 +1,544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 443.0,
+		"last_filter": "artisan",
+		"selected_items":
+		[
+			[
+				"artisan",
+				"Laravel Artisan 5: List"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bracketguard",
+				"Preferences: BracketGuard Settings - Default"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brack",
+				"Preferences: BracketGuard Settings - Default"
+			],
+			[
+				"colo",
+				"Package Control: Install Package"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"remot",
+				"Git: Track Remote Branch"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"branch",
+				"git: branch"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Indexing Status"
+			],
+			[
+				"branc",
+				"git: branch"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"github",
+				"Github: Open File"
+			],
+			[
+				"pack install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 681.0
+	},
+	"console":
+	{
+		"height": 232.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/leblanccommunications.com"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/leblanccommunications.com/index.php",
+		"/C/xampp/htdocs/leblanccommunications.com/public/.htaccess",
+		"/C/xampp/htdocs/leblanccommunications.com/routes/web.php",
+		"/C/xampp/htdocs/blog/app/Providers/EventServiceProvider.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/RegistrationController.php",
+		"/C/xampp/htdocs/blog/app/Http/Requests/RegistrationRequest.php",
+		"/C/xampp/htdocs/blog/.env",
+		"/C/xampp/htdocs/blog/config/mail.php",
+		"/C/xampp/htdocs/blog/app/Mail/Welcome.php",
+		"/C/xampp/htdocs/blog/resources/views/emails/welcome-again.blade.php",
+		"/C/Users/Steve/AppData/Roaming/Sublime Text 3/Packages/User/Laravel 5 Artisan.sublime-commands",
+		"/C/Users/Steve/AppData/Roaming/Sublime Text 3/Packages/Laravel 5 Artisan/Laravel 5 Artisan.sublime-settings",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/emails/welcome.blade.php",
+		"/C/xampp/htdocs/blog/app/Post.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
+		"/C/xampp/htdocs/blog/tests/Feature/ExampleTest.php",
+		"/C/xampp/htdocs/blog/tests/Unit/ExampleTest.php",
+		"/C/xampp/htdocs/blog/app/Repositories/posts.php",
+		"/C/xampp/htdocs/blog/phpunit.xml",
+		"/C/xampp/htdocs/blog/database/factories/ModelFactory.php",
+		"/C/xampp/htdocs/blog/tests/TestCase.php",
+		"/C/xampp/htdocs/blog/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/blog/vendor/composer/installed.json",
+		"/C/xampp/htdocs/blog/composer.json",
+		"/C/xampp/htdocs/UnitTest/composer.json",
+		"/C/xampp/htdocs/UnitTest/phpunit.xml",
+		"/C/xampp/htdocs/blog/resources/views/layouts/sidebar.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/nav.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/sessions/create.blade.php",
+		"/C/xampp/htdocs/blog/routes/web.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/SessionsController.php",
+		"/C/xampp/htdocs/blog/resources/views/registration/create.blade.php",
+		"/C/xampp/htdocs/blog/app/User.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/post.blade.php",
+		"/C/xampp/htdocs/blog/node_modules/http-proxy-middleware/lib/index.js",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/blog/app/Comment.php",
+		"/C/xampp/htdocs/blog/database/migrations/2017_02_09_020736_create_comments_table.php",
+		"/C/xampp/htdocs/blog/database/migrations/2017_02_07_130623_create_posts_table.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/CommentsController.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/show.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/blog/app/Model.php",
+		"/C/xampp/htdocs/blog/server.php",
+		"/C/xampp/htdocs/blog/public/index.php",
+		"/C/xampp/htdocs/blog/webpack.mix.js",
+		"/C/xampp/htdocs/blog/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/blog/css/app.css",
+		"/C/xampp/htdocs/blog/public/css/app.css",
+		"/C/xampp/htdocs/blog/resources/views/layouts/master2.blade.php",
+		"/C/xampp/htdocs/blog/index.php",
+		"/C/xampp/htdocs/blog/.htaccess",
+		"/C/xampp/htdocs/blog/public/.htaccess",
+		"/C/xampp/htdocs/blog/public/web.config",
+		"/C/xampp/htdocs/blog/css/blog.css",
+		"/C/xampp/htdocs/blog/resources/views/posts/create.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/index.blade.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/errors.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/post.blade.php.php",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/footer.blade.php",
+		"/C/xampp/htdocs/blog/js/app.js",
+		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Routing/Console/stubs/controller.model.stub",
+		"/C/xampp/htdocs/blog/resources/views/layout.blade.php",
+		"/C/xampp/htdocs/blog/public/css/album.css",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/TasksController.php",
+		"/C/xampp/htdocs/blog/database/migrations/2017_02_07_002901_create_tasks_table.php",
+		"/C/xampp/htdocs/blog/app/Task.php",
+		"/C/xampp/htdocs/blog/resources/views/tasks/index.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/tasks/show.blade.php",
+		"/C/xampp/htdocs/blog/package.json",
+		"/C/xampp/htdocs/blog/config/services.php",
+		"/C/xampp/htdocs/blog/config/app.php",
+		"/C/xampp/htdocs/blog/database/migrations/2017_02_06_171635_create_tasks_table.php",
+		"/C/xampp/htdocs/blog/resources/views/about.blade.php",
+		"/C/xampp/htdocs/blog/vendor/phpunit/phpunit-mock-objects/tests/MockObject/Generator/nonexistent_class_with_namespace_starting_with_separator.phpt",
+		"/C/xampp/htdocs/leblanccommunications.com/.htaccess",
+		"/C/Users/Steve/Google Drive/leblanccommunications/realestatews/public_html/call/laravel/routes/web.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/layouts/default.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/file-upload-2.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/navbar.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/file-upload.php",
+		"/C/Users/Steve/Google Drive/leblanccommunications/realestatews/public_html/call/laravel/bootstrap/app.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/home.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/layouts/sidebar.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/head.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/siderbar.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/header.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/contact.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/projects.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/about.blade.php",
+		"/C/xampp/htdocs/realestatews/routes/web.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/home.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/index.php",
+		"/C/Users/Steve/AppData/Local/Temp/scp10195/home/leblancc/public_html/help/.htaccess",
+		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/index.php",
+		"/C/Users/Steve/AppData/Local/Temp/scp27459/home/leblancc/public_html/help/fileupload/error_log",
+		"/C/xampp/htdocs/leblanccommunications.com/help/.htaccess",
+		"/C/Users/Steve/AppData/Local/Temp/scp11768/home/leblancc/public_html/help/php.ini",
+		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/.htaccess",
+		"/C/Users/Steve/AppData/Local/Temp/scp04104/opt/cpanel/ea-php70/root/etc/php.ini",
+		"/C/Users/Steve/AppData/Local/Temp/scp46550/opt/cpanel/ea-php70/root/etc/php-fpm.conf",
+		"/C/xampp/htdocs/leblanccommunications.com/help/phpinfo.php",
+		"/C/xampp/htdocs/steveleblanc/index.html",
+		"/C/Users/Steve/AppData/Local/Temp/scp17429/home/leblancc/public_html/help/index.php",
+		"/C/Users/Steve/AppData/Local/Temp/scp27061/home/leblancc/public_html/help/fileupload/php.ini",
+		"/C/xampp/htdocs/leblanccommunications.com/support/function.php",
+		"/C/xampp/htdocs/leblanccommunications.com/support/form.php",
+		"/C/xampp/htdocs/leblanccommunications.com/support/index.php",
+		"/C/xampp/htdocs/leblanccommunications.com/support/script.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/home.blade.php",
+		"/C/Users/Steve/AppData/Local/Temp/scp13843/home/realestatews/public_html/call/laravel/routes/web.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/routes/web.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/help/bootstrap/app.php",
+		"/C/Users/Steve/AppData/Local/Temp/scp06792/home/realestatews/public_html/call/laravel/resources/views/cards/index.blade.php"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 218.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\leblanccommunications.com\\help",
+			"",
+			"help",
+			"",
+			"laracasts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"post_max",
+			"upload",
+			"post_max_size",
+			"\">\n",
+			"css/app.css",
+			"prepare",
+			"fetchALL",
+			"DocumentRoot",
+			"Rewrite",
+			";\n",
+			"reg_date",
+			"date",
+			"switch",
+			"leblanc",
+			"style",
+			"250",
+			"img",
+			"src",
+			"inner-cover",
+			"cover-container",
+			"back",
+			"background-attachment",
+			"opacity",
+			"body",
+			"modal",
+			"portfo",
+			"block",
+			"modal",
+			"houses",
+			"brand",
+			"hover",
+			"modal-body",
+			"0.3",
+			"min-height",
+			"masthead-brand",
+			"@media",
+			"padding-top",
+			"fixed-top",
+			"@media",
+			"masthead-brand",
+			"portfo",
+			"lead",
+			"navbar-toggle",
+			"navbar-header",
+			"navbar",
+			"fixed-top",
+			"@media",
+			"transparent",
+			"toggle",
+			"inverse",
+			"/* Bump up size",
+			"img",
+			"img src",
+			"border-bottom-color",
+			"@media",
+			"textAr-width",
+			"cushion",
+			"portfolio",
+			"cover-heading",
+			"responsive",
+			"navbar",
+			".navbar",
+			".navbar-fixed-top",
+			".navbar-fixed-top {\n    width: 100%;",
+			"container",
+			".navbar",
+			".navbar-fixed-top {",
+			"navbar",
+			"body {",
+			"@media",
+			"carou",
+			"h2",
+			"marketing",
+			"carousel",
+			"container",
+			"</h2>",
+			"<hr class=\"star-primary\">",
+			"primary",
+			"@media",
+			"masthead-brand",
+			"masthead",
+			"brand",
+			";\n",
+			"toggle",
+			"cover",
+			"masthead",
+			"lead",
+			"cushion",
+			"divider",
+			"textarea",
+			"form-group",
+			"footer",
+			"cushion",
+			"section",
+			"80px",
+			"inner",
+			"cover",
+			"cover-container",
+			"fixed-top",
+			"masthead",
+			"modal",
+			"portfolio",
+			"modal",
+			"portfolio",
+			"inner",
+			"site-wrapper-inner",
+			"brand",
+			"image",
+			"holder",
+			"lead",
+			"cover",
+			"cover-heading",
+			"inner cover",
+			"cover",
+			"media",
+			"html",
+			"button",
+			"numb",
+			"num",
+			"Sad"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"counter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 258.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 160.0
+	},
+	"pinned_build_system": "",
+	"project": "leblanc.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"v/wel",
+				"resources\\views\\welcome.blade.php"
+			],
+			[
+				"wiews",
+				"vendor\\phpunit\\phpunit-mock-objects\\tests\\MockObject\\Generator\\nonexistent_class_with_namespace_starting_with_separator.phpt"
+			],
+			[
+				"rweb",
+				"routes\\web.php"
+			],
+			[
+				"",
+				"C:\\sites\\steveleblanc.net\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
