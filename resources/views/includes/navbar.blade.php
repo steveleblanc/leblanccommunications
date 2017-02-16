@@ -6,14 +6,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="masthead-brand" href="/"><img src="../images/leblanc-communications.jpg"></a>
+      <div class="mbb"><a href="/" id="mbb"><img src="../images/logo-leblanc-communications.jpg"></a></div>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
-        <li><a href="#portfolio">Home</a></li>
-        <li><a href="#about">Website Services</a></li>        
-        <li><a href="#contact">Portfolio</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="website-design">WEBSITE SERVICES</a></li>    
+        <li><a href="login">SUPPORT</a></li>
+        <li><a href="contact">CONTACT US</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

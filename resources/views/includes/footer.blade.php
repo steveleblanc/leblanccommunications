@@ -1,4 +1,3 @@
-<div id="copyright text-right">© Copyright 2017 Steve Leblanc</div>
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -25,3 +24,6 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
     <script src="js/test-navbar.js"></script>
+<section class="foot">
+<div id="copyright text-right">© Copyright 2017 Steve Leblanc</div>
+</section>

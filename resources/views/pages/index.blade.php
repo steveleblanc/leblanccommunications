@@ -6,8 +6,6 @@
 
         <div class="cover-container">
 
-          <div class="masthead">
-            <div class="inner">
               <!-- <a class="masthead-brand" href="http://steveleblanc.net">Steve Leblanc</a> -->
               <!-- <nav>
 
@@ -18,9 +16,6 @@
                 </ul>
               </nav> -->
               <!-- USING BOOTSTRAP 3.0.3 -->
-
-            </div>
-          </div>
 
           <div class="inner cover">
             <h1 class="cover-heading">Small Business Website Design</h1>
@@ -37,18 +32,15 @@
     </div>
 
 
-      <section>  
-        <div class="col-lg-12 text-center">
-                        <h2>CHOOSE THE PERFECT WEBSITE PACKAGE FOR YOU<br>
-                        <span class="text-muted">We Build Websites That Bring You Results!</span></h2>
-        </div><!-- col-lg-12 text-center -->
+      <section class="text-center">
+                        <h1>Choose The Perfect Website Package For You</h1>
         </section>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap this area of the page in another container to center all the content. -->
 
 <!-- <div class="cover-container"> -->
-<section class="area">
+<section>
     <div class="container">
 
       <!-- START THE FEATURETTES -->
@@ -75,11 +67,8 @@
     </div><!-- featurette -->
   </div><!-- container -->
 </section>
-    <section>
+    <section class="area">
     <div class="container">
-
-      <!-- START THE FEATURETTES -->
-
       <div class="featurette">          
               <div class="col-md-5">
                 <img class="featurette-heading featurette-image" src="images/business-websites.png" alt="Business Websites">
@@ -98,6 +87,30 @@
                 </div><!-- wpb_wrapper -->
             </div><!-- wpb_text_column wpb_content_element -->
           </div><!-- col-md-7 -->
+    </div><!-- featurette -->
+  </div><!-- container -->
+</section>
+<section>
+    <div class="container">
+      <div class="featurette">
+          
+          <div class="col-md-7">
+            <h3 class="featurette-heading">BUSINESS WEBSITES<br><span class="text-muted">Unique, Powerful with the latest features.</span></h3>
+            <div class="">
+                <div class="">
+                  <p>- Capture Leads automatically with built in Lead Generating Forms<br />
+            - Search Engine Optimized Website<br />
+            - Mobile Friendly<br />
+            - Built on the solid WordPress Platform<br />
+            - Easily Add and Edit Your Website Content (or we do it for you)<br />
+            - Blog included<br />
+            - Free Support</p>
+                </div><!-- wpb_wrapper -->
+            </div><!-- wpb_text_column wpb_content_element -->
+          </div><!-- col-md-7 -->
+              <div class="col-md-5">
+                <img class="featurette-heading featurette-image" src="images/business-websites.png" alt="Business Websites">
+              </div>
     </div><!-- featurette -->
   </div><!-- container -->
 </section>
@@ -324,7 +337,7 @@
 
 <!-- Contact
     ================================================== -->
-<section id="contact">
+<section>
 <div class="container">
     <div class="row">
                   <div class="col-lg-12 text-center">
