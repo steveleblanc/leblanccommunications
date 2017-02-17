@@ -7,6 +7,132 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 708,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/FileController.php",
+			"settings":
+			{
+				"buffer_size": 2432,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/resources/views/posts/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 661,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
+			"settings":
+			{
+				"buffer_size": 2432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/File.php",
+			"settings":
+			{
+				"buffer_size": 1094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/pages/fileupload.blade.php",
+			"settings":
+			{
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "fileupload"
+			}
+		},
+		{
+			"contents": "@extends('layouts.app')\n@section('content')\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-8 col-md-offset-2\">\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">Login</div>\n                <div class=\"panel-body\">\n                    <form class=\"form-horizontal\" role=\"form\" method=\"POST\" action=\"{{ route('login') }}\">\n                        {{ csrf_field() }}\n\n                        <div class=\"form-group{{ $errors->has('email') ? ' has-error' : '' }}\">\n                            <label for=\"email\" class=\"col-md-4 control-label\">E-Mail Address</label>\n\n                            <div class=\"col-md-6\">\n                                <input id=\"email\" type=\"email\" class=\"form-control\" name=\"email\" value=\"{{ old('email') }}\" required autofocus>\n\n                                @if ($errors->has('email'))\n                                    <span class=\"help-block\">\n                                        <strong>{{ $errors->first('email') }}</strong>\n                                    </span>\n                                @endif\n                            </div>\n                        </div>\n\n                        <div class=\"form-group{{ $errors->has('password') ? ' has-error' : '' }}\">\n                            <label for=\"password\" class=\"col-md-4 control-label\">Password</label>\n\n                            <div class=\"col-md-6\">\n                                <input id=\"password\" type=\"password\" class=\"form-control\" name=\"password\" required>\n\n                                @if ($errors->has('password'))\n                                    <span class=\"help-block\">\n                                        <strong>{{ $errors->first('password') }}</strong>\n                                    </span>\n                                @endif\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <div class=\"col-md-6 col-md-offset-4\">\n                                <div class=\"checkbox\">\n                                    <label>\n                                        <input type=\"checkbox\" name=\"remember\" {{ old('remember') ? 'checked' : '' }}> Remember Me\n                                    </label>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"form-group\">\n                            <div class=\"col-md-8 col-md-offset-4\">\n                                <button type=\"submit\" class=\"btn btn-primary\">\n                                    Login\n                                </button>\n\n                                <a class=\"btn btn-link\" href=\"{{ route('password.request') }}\">\n                                    Forgot Your Password?\n                                </a>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n@endsection\n",
+			"file": "resources/views/auth/login.blade.php",
+			"file_size": 3064,
+			"file_write_time": 131317451919741124,
+			"settings":
+			{
+				"buffer_size": 3063,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 3787,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+			"settings":
+			{
+				"buffer_size": 2043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/includes/navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 822,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/custom.css",
+			"settings":
+			{
+				"buffer_size": 11200,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/includes/footer.blade.php",
+			"settings":
+			{
+				"buffer_size": 1339,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/pages/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 18769,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -16,9 +142,13 @@
 	"command_palette":
 	{
 		"height": 443.0,
-		"last_filter": "artisan",
+		"last_filter": "color",
 		"selected_items":
 		[
+			[
+				"color",
+				"Color Picker"
+			],
 			[
 				"artisan",
 				"Laravel Artisan 5: List"
@@ -116,7 +246,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 681.0
+		"width": 637.0
 	},
 	"console":
 	{
@@ -136,13 +266,66 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/leblanccommunications.com"
+		"/C/xampp/htdocs/leblanccommunications.com",
+		"/C/xampp/htdocs/leblanccommunications.com/app",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Http",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Http/Controllers",
+		"/C/xampp/htdocs/leblanccommunications.com/config",
+		"/C/xampp/htdocs/leblanccommunications.com/css",
+		"/C/xampp/htdocs/leblanccommunications.com/resources",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/auth/layouts",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/pages",
+		"/C/xampp/htdocs/leblanccommunications.com/routes"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/blog/app/Http/Controllers/CommentsController.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/includes/navbar.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/css/custom.css",
+		"/C/xampp/htdocs/steveleblanc/index.html",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/master2.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/pages/websitedesign.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/show.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/pages/website-design.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/pages/index.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/home.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/vendor/laravel/framework/src/Illuminate/Validation/Rules/Dimensions.php",
+		"/C/xampp/htdocs/steveleblanc/css/custom.css",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/includes/header.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/includes/head.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/readme.md",
+		"/C/xampp/htdocs/blog/resources/views/posts/index.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/layouts/default.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/routes/web.php",
+		"/C/xampp/htdocs/homesforsaleroswellga.com/index.html",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/pages/home.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/pages/about.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/layouts/sidebar.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/home.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/layouts/sidebar.blade.php",
+		"/C/xampp/htdocs/BU-leblanccommunications/resources/views/pages/projects.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/posts/post.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/support.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/leblanccommunications.com/.env",
+		"/C/xampp/htdocs/leblanccommunications.com/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/example/routes/web.php",
+		"/C/xampp/htdocs/example/resources/views/home.blade.php",
+		"/C/xampp/htdocs/example/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/example/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
+		"/C/xampp/htdocs/blog/resources/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/leblanccommunications.com/resources/views/test.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/registration/create.blade.php",
 		"/C/xampp/htdocs/leblanccommunications.com/index.php",
 		"/C/xampp/htdocs/leblanccommunications.com/public/.htaccess",
-		"/C/xampp/htdocs/leblanccommunications.com/routes/web.php",
 		"/C/xampp/htdocs/blog/app/Providers/EventServiceProvider.php",
 		"/C/xampp/htdocs/blog/app/Http/Controllers/RegistrationController.php",
 		"/C/xampp/htdocs/blog/app/Http/Requests/RegistrationRequest.php",
@@ -155,7 +338,6 @@
 		"/C/xampp/htdocs/leblanccommunications.com/resources/views/auth/register.blade.php",
 		"/C/xampp/htdocs/blog/resources/views/emails/welcome.blade.php",
 		"/C/xampp/htdocs/blog/app/Post.php",
-		"/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
 		"/C/xampp/htdocs/blog/tests/Feature/ExampleTest.php",
 		"/C/xampp/htdocs/blog/tests/Unit/ExampleTest.php",
 		"/C/xampp/htdocs/blog/app/Repositories/posts.php",
@@ -172,20 +354,15 @@
 		"/C/xampp/htdocs/blog/resources/views/sessions/create.blade.php",
 		"/C/xampp/htdocs/blog/routes/web.php",
 		"/C/xampp/htdocs/blog/app/Http/Controllers/SessionsController.php",
-		"/C/xampp/htdocs/blog/resources/views/registration/create.blade.php",
 		"/C/xampp/htdocs/blog/app/User.php",
 		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/LoginController.php",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
-		"/C/xampp/htdocs/blog/resources/views/posts/post.blade.php",
 		"/C/xampp/htdocs/blog/node_modules/http-proxy-middleware/lib/index.js",
 		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/RegisterController.php",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
 		"/C/xampp/htdocs/blog/app/Comment.php",
 		"/C/xampp/htdocs/blog/database/migrations/2017_02_09_020736_create_comments_table.php",
 		"/C/xampp/htdocs/blog/database/migrations/2017_02_07_130623_create_posts_table.php",
-		"/C/xampp/htdocs/blog/app/Http/Controllers/CommentsController.php",
-		"/C/xampp/htdocs/blog/resources/views/posts/show.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/Http/Controllers/HomeController.php",
 		"/C/xampp/htdocs/blog/app/Model.php",
 		"/C/xampp/htdocs/blog/server.php",
 		"/C/xampp/htdocs/blog/public/index.php",
@@ -193,20 +370,17 @@
 		"/C/xampp/htdocs/blog/resources/assets/sass/app.scss",
 		"/C/xampp/htdocs/blog/css/app.css",
 		"/C/xampp/htdocs/blog/public/css/app.css",
-		"/C/xampp/htdocs/blog/resources/views/layouts/master2.blade.php",
 		"/C/xampp/htdocs/blog/index.php",
 		"/C/xampp/htdocs/blog/.htaccess",
 		"/C/xampp/htdocs/blog/public/.htaccess",
 		"/C/xampp/htdocs/blog/public/web.config",
 		"/C/xampp/htdocs/blog/css/blog.css",
 		"/C/xampp/htdocs/blog/resources/views/posts/create.blade.php",
-		"/C/xampp/htdocs/blog/resources/views/posts/index.blade.php",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
 		"/C/xampp/htdocs/blog/resources/views/layouts/errors.blade.php",
 		"/C/xampp/htdocs/blog/resources/views/posts/post.blade.php.php",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php",
-		"/C/xampp/htdocs/blog/resources/views/layouts/master.blade.php",
 		"/C/xampp/htdocs/blog/resources/views/layouts/footer.blade.php",
 		"/C/xampp/htdocs/blog/js/app.js",
 		"/C/xampp/htdocs/blog/vendor/laravel/framework/src/Illuminate/Routing/Console/stubs/controller.model.stub",
@@ -233,45 +407,11 @@
 		"/C/Users/Steve/Google Drive/leblanccommunications/realestatews/public_html/call/laravel/bootstrap/app.php",
 		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/home.blade.php",
 		"/C/xampp/htdocs/leblanccommunications.com/app/views/layouts/sidebar.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/head.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/siderbar.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/footer.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/header.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/contact.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/projects.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/app/views/pages/about.blade.php",
-		"/C/xampp/htdocs/realestatews/routes/web.php",
-		"/C/xampp/htdocs/leblanccommunications.com/resources/views/home.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/index.php",
-		"/C/Users/Steve/AppData/Local/Temp/scp10195/home/leblancc/public_html/help/.htaccess",
-		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/index.php",
-		"/C/Users/Steve/AppData/Local/Temp/scp27459/home/leblancc/public_html/help/fileupload/error_log",
-		"/C/xampp/htdocs/leblanccommunications.com/help/.htaccess",
-		"/C/Users/Steve/AppData/Local/Temp/scp11768/home/leblancc/public_html/help/php.ini",
-		"/C/xampp/htdocs/leblanccommunications.com/help/fileupload/.htaccess",
-		"/C/Users/Steve/AppData/Local/Temp/scp04104/opt/cpanel/ea-php70/root/etc/php.ini",
-		"/C/Users/Steve/AppData/Local/Temp/scp46550/opt/cpanel/ea-php70/root/etc/php-fpm.conf",
-		"/C/xampp/htdocs/leblanccommunications.com/help/phpinfo.php",
-		"/C/xampp/htdocs/steveleblanc/index.html",
-		"/C/Users/Steve/AppData/Local/Temp/scp17429/home/leblancc/public_html/help/index.php",
-		"/C/Users/Steve/AppData/Local/Temp/scp27061/home/leblancc/public_html/help/fileupload/php.ini",
-		"/C/xampp/htdocs/leblanccommunications.com/support/function.php",
-		"/C/xampp/htdocs/leblanccommunications.com/support/form.php",
-		"/C/xampp/htdocs/leblanccommunications.com/support/index.php",
-		"/C/xampp/htdocs/leblanccommunications.com/support/script.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/auth/register.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/layouts/app.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/auth/login.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/home.blade.php",
-		"/C/Users/Steve/AppData/Local/Temp/scp13843/home/realestatews/public_html/call/laravel/routes/web.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/routes/web.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/resources/views/welcome.blade.php",
-		"/C/xampp/htdocs/leblanccommunications.com/help/bootstrap/app.php",
-		"/C/Users/Steve/AppData/Local/Temp/scp06792/home/realestatews/public_html/call/laravel/resources/views/cards/index.blade.php"
+		"/C/xampp/htdocs/leblanccommunications.com/app/views/includes/head.blade.php"
 	],
 	"find":
 	{
-		"height": 47.0
+		"height": 95.0
 	},
 	"find_in_files":
 	{
@@ -290,6 +430,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ease",
+			"brand",
+			"nav",
+			"ease",
+			"shrink",
+			"section",
+			"navspace",
+			"nav",
+			"laptop",
+			"img",
+			"src",
+			"lead",
+			"cover-heading",
+			"fixed",
+			"navspace",
+			"hover",
+			".navbar-nav>li>a",
+			"hover",
+			"masthead",
+			"id=",
+			"section",
+			"center",
+			"lead",
+			"rgba",
 			"name",
 			"post_max",
 			"upload",
@@ -393,26 +557,9 @@
 			"masthead",
 			"modal",
 			"portfolio",
-			"modal",
-			"portfolio",
-			"inner",
-			"site-wrapper-inner",
-			"brand",
-			"image",
-			"holder",
-			"lead",
-			"cover",
-			"cover-heading",
-			"inner cover",
-			"cover",
-			"media",
-			"html",
-			"button",
-			"numb",
-			"num",
-			"Sad"
+			"modal"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -430,8 +577,425 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/FileController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1226,
+								1231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/blog/resources/views/posts/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/blog/app/Http/Controllers/PostsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/File.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/pages/fileupload.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"auto_name": "fileupload",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/auth/login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2880.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1979,
+								1979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1920.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "resources/views/includes/navbar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2500,
+								2500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/includes/footer.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/pages/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								809,
+								809
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -441,7 +1005,7 @@
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 95.0
 	},
 	"layout":
 	{
@@ -512,12 +1076,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 625.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{

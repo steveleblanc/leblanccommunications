@@ -22,3 +22,4 @@ Auth::routes();
 
 Route::get('/support', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
+Route::get('/fileUpload', 'FileController@index');

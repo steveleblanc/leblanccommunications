@@ -53,9 +53,7 @@
 
                     @else
                         <li><a href="support">DASHBOARD</a></li>
-                        <li><a href="website-design">WEBSITE SERVICES</a></li>    
-                        <li><a href="portfolio">PORTFOLIO</a></li>
-                        <li><a href="contact">CONTACT US</a></li>
+                        <li><a href="fileUpload">SEND US YOUR CONTENT</a></li>
                     @endif
                     </ul>
                     <!-- Right Side Of Navbar -->
