@@ -4,7 +4,6 @@
 	<title></title>
 </head>
 <body>
-Hey Steve, Welcome to our website. <br>
-Please click to confirm email
+Hey {{ $user->name }} , Welcome to Leblanc Communications. <br>
 </body>
 </html>
