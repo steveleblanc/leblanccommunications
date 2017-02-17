@@ -9,7 +9,7 @@ body {
   /*text-shadow: 0 1px 3px rgba(0,0,0,.1);*/
 }
 .stretch {
-  height:100%;
+  height: 100%;
 }
 
 
@@ -418,9 +418,11 @@ section.foot {
 
 
 
-
-
-
+.sidebar-nav {
+  margin-top: 0px;
+  max-width: 250px;
+  /*min-height: 500px;*/
+}
 /*
  * 
 -------------------------------------------------- */
@@ -514,7 +516,13 @@ section.foot {
   line-height: 1;
   letter-spacing: -1px;
 }
-
+.fileUploader {
+  background-color: #eee
+}
+.fileUploaderImg {
+  max-width: 180px;
+  max-height: 169px;
+}
 
 
 
@@ -624,5 +632,12 @@ section.foot {
     
   }
 }
+
+/*@media (max-width: 992px) {
+  .sidebar-nav {
+    width: 250px;
+    
+  }
+}*/
 
 

@@ -1,8 +1,14 @@
+<div class="stretch sidebar-nav">
 <!-- sidebar nav -->
-    <nav id="sidebar-nav">
+    <nav class="sidebar-nav">
+    @if (Auth::guest())
+    @else
         <ul class="nav nav-pills nav-stacked">
-            <li><a href="#">Fly to the Moon</a></li>
-            <li><a href="#">Dig to China</a></li>
-            <li><a href="#">Swim Across the Sea</a></li>
+        	<li><h3>PROFILE SETTINGS</h3></li>
+            <li><a href="support">Dashboard</a></li>
+            <li><a href="upload">Send Us Your Content</a></li>
+            <li><a href="#">Check Your Stats</a></li>
+        @endif
         </ul>
     </nav>
+</div>

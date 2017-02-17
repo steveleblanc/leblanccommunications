@@ -22,9 +22,7 @@
     </script>
 </head>
 <body>
-<div class="container">
     @include('includes.navbar')
-    </div>
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -51,7 +49,8 @@
 
                     @else
                         <li><a href="support">DASHBOARD</a></li>
-                        <li><a href="upload">SEND US YOUR CONTENT</a></li>
+                        <li><a href="upload">BILLING</a></li>
+                        <li><a href="upload">SUPPORT</a></li>
                     @endif
                     </ul>
                     <!-- Right Side Of Navbar -->
@@ -85,10 +84,13 @@
                 </div>
             </div>
         </nav>
-
+<div class="sidebar-nav col-md-2">
+@include('includes.sidebar')
+</div>
+<div class="col-md-10"> 
         @yield('content')
     </div>
-
+</div>
     <!-- Scripts -->
     <script src="/js/app.js"></script>
 </body>
