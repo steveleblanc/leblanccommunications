@@ -1,6 +1,5 @@
 @extends('layouts.master')
 @section('content')
-<section class="navspace">
     <div class="container">
 
       <!-- START THE FEATURETTES -->

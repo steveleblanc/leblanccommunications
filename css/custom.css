@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  height:100%;
   /*padding-bottom: 20px;*/
   color: #5a5a5a;
   margin-top: 0px;
@@ -8,13 +8,17 @@ body {
   /*text-align: center;*/
   /*text-shadow: 0 1px 3px rgba(0,0,0,.1);*/
 }
+.stretch {
+  height:100%;
+}
+
 
 /*NAVBAR
 ---------------------------------------------------------*/
 /* Handle the widths */
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: 0px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
   .navbar-header {
     padding-top: 15px;
@@ -28,7 +32,7 @@ body {
 }
 .navbar-inverse {
     background-color: white;
-    border-color: transparent;
+    border-color: white;
 }
 
 .navbar-nav {
@@ -115,7 +119,7 @@ nav.navbar.shrink .navbar-toggle {
 }
 
 .navspace {
-  padding-top: 90px;
+  padding-top: 87px;
 }
 
 
@@ -327,7 +331,13 @@ section.navspace {
 }
 section.foot {
   background: #1c2329;
-  color: white;
+  color: white; 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
 /*COVER CSS***
@@ -522,6 +532,13 @@ section.foot {
 .featurette-image {
     max-width: 400px;
   }
+
+.footer {
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  height: 400px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

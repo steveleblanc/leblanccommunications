@@ -31,7 +31,6 @@
 
     </div>
 
-
       <section class="text-center">
                         <h1>Choose The Perfect Website Package For You</h1>
         </section>
@@ -386,4 +385,4 @@
   </div><!-- col-md-5 -->
 </div><!-- container -->
 </section>
-@stop
+@endsection

@@ -18,8 +18,10 @@ Route::get('/website-design', function () {
     return view('pages.website-design');
 });
 
-Auth::routes();
 
+Auth::routes();
 Route::get('/support', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
-Route::get('/fileUpload', 'FileController@index');
+Route::get('upload', 'FilesController@index');
+Route::post('handleUpload', 'FilesController@handleUpload');
+// Route::get('/fileUpload', 'FileController@index');

@@ -25,8 +25,6 @@
 <div class="container">
     @include('includes.navbar')
     </div>
-    <div class="navspace"></div></div>
-
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -53,7 +51,7 @@
 
                     @else
                         <li><a href="support">DASHBOARD</a></li>
-                        <li><a href="fileUpload">SEND US YOUR CONTENT</a></li>
+                        <li><a href="upload">SEND US YOUR CONTENT</a></li>
                     @endif
                     </ul>
                     <!-- Right Side Of Navbar -->

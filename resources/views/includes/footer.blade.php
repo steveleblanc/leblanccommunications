@@ -24,6 +24,6 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
     <script src="js/test-navbar.js"></script>
-<section class="foot">
+<div class="footer">
 <div id="copyright text-right">© Copyright 2017 Steve Leblanc</div>
-</section>
+</div>
