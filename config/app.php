@@ -4,7 +4,7 @@ return [
 
     'fileDestinationPath' => 'uploads',
     'allowedFileTypes' => 'jpg,jpeg,bmp,png,pdf,txt,doc,docx',
-    'maxFileSize' => '4000',
+    'maxFileSize' => '6000',
 
 
     /*

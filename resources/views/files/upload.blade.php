@@ -5,12 +5,17 @@
 	<div class="col-md-3">
 		<h2>Upload file here</h2>
 		@if(count($errors))
-			<ul>
+			<ul class="alert-danger" role="alert">
 				@foreach($errors->all() as $error)
-					<li>{{ $error }}</li>
+					{{ $error }}
 				@endforeach
 			</ul>
 		@endif
+		<ul>
+			@foreach($files as $file)
+				<li>{{ $file }}</li>
+			@endforeach
+		</ul>
 		{!! Form::open(array('url' => '/handleUpload', 'files' => true)) !!}
 		<div class="form-group">
 			<div class="form-group col-md-3">

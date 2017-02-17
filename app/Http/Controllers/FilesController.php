@@ -113,5 +113,13 @@ class FilesController extends Controller
         // }
         return redirect()->to('/upload');
     }
-
+    //list the files on the upload page
+    public function upload(){
+        // Identify the directory
+        $directory = config('app.fileDestinationPath');
+        //give us all the files in the directory
+        $files = Storage::files($directory);
+        //return the view and pass in a variable for the content
+        return view('files.upload')->with(array('files' => $files));
+    }
 }

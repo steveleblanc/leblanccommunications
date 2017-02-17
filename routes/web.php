@@ -22,6 +22,6 @@ Route::get('/website-design', function () {
 Auth::routes();
 Route::get('/support', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
-Route::get('upload', 'FilesController@index');
+Route::get('upload', 'FilesController@upload');
 Route::post('handleUpload', 'FilesController@handleUpload');
 // Route::get('/fileUpload', 'FileController@index');
