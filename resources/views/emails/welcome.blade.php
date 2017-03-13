@@ -4,6 +4,6 @@
 	<title></title>
 </head>
 <body>
-Hey {{ $user->name }} , Welcome to Leblanc Communications. <br>
+Welcome to Leblanc Communications {{ $first_name }}. Thank you for Registering<br>
 </body>
 </html>

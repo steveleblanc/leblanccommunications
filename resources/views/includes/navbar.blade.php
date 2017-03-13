@@ -6,13 +6,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="mbb"><a href="/" id="mbb"><img src="../images/logo-leblanc-communications.jpg"></a></div>
+      <div class=""><a href="/" id=""><img src="../images/logo-leblanc-communications.jpg" class="img-responsive"></a></div>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
         <li><a href="/">HOME</a></li>
         <li><a href="website-design">WEBSITE SERVICES</a></li>    
-        <li><a href="login">SUPPORT</a></li>
+        <li><a href="support">SUPPORT</a></li>
         <li><a href="contact">CONTACT US</a></li>
       </ul>
     </div><!--/.nav-collapse -->

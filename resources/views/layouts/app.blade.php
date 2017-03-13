@@ -8,11 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Leblanc Communications') }}</title>
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="/css/app.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -22,12 +23,12 @@
     </script>
 </head>
 <body>
-    @include('includes.navbar')
+@include('includes.navbar')
+<div class="stretch">
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
-
                     <!-- Collapsed Hamburger -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
@@ -49,8 +50,9 @@
 
                     @else
                         <li><a href="support">DASHBOARD</a></li>
-                        <li><a href="upload">BILLING</a></li>
-                        <li><a href="upload">SUPPORT</a></li>
+                        <li><a href="tools">TOOLS</a></li>
+                        <li><a href="billing">BILLING</a></li>
+                        <li><a href="help">HELP</a></li>
                     @endif
                     </ul>
                     <!-- Right Side Of Navbar -->
@@ -84,14 +86,16 @@
                 </div>
             </div>
         </nav>
-<div class="sidebar-nav col-md-2">
+<div class="row sidebar-nav col-md-2">
 @include('includes.sidebar')
 </div>
-<div class="col-md-10"> 
+<div class="row col-md-10"> 
         @yield('content')
     </div>
+
 </div>
-    <!-- Scripts -->
-    <script src="/js/app.js"></script>
+
+</div>
+@include('includes.footer')
 </body>
 </html>

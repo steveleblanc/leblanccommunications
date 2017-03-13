@@ -147,10 +147,26 @@ class FilesController extends Controller
         //return the view and pass in a variable for the content
         return view('files.upload')->with(array('files' => $files));
     }
+    
     public function deleteFile($id) {
         $file = UploadedFile::find($id); // find the file
-        Storage::delete(config('app.fileDestinationPath').'/'.$file->filename); // delete the file from the directory
-        $file->delete(); // delete the file name from the db
+        Storage::delete(config('app.fileDestinationPath').'/'.$file->filename); // delete the file from the directory folder
+        
+        $file->delete(); // delete the file name from the database
         return redirect()->to('/upload');
+    }
+    public function tools()
+    {
+        return view('pages.tools');
+    }
+
+     public function billing()
+    {
+        return view('pages.billing');
+    }
+
+    public function help()
+    {
+        return view('pages.help');
     }
 }

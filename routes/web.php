@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'FormsController@index');
 Route::get('/website-design', function () {
     return view('pages.website-design');
 });
@@ -24,10 +22,15 @@ Route::get('/contact', function () {
 
 Auth::routes();
 Route::get('/support', 'HomeController@index');
+Route::get('/logout', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
+Route::get('/tools', 'FilesController@tools');
+Route::get('/billing', 'FilesController@billing');
+Route::get('/help', 'FilesController@help');
 Route::get('upload', 'FilesController@upload');
 Route::post('handleUpload', 'FilesController@handleUpload');
 Route::get('deleteFile/{id}', ['as' => 'deleteFile', 'uses' => 'FilesController@deleteFile']);
+Route::post('/form/store', 'FormsController@emailSend');
 // Route::get('upload/{id}', [
 //     'middleware' => 'auth',
 //     'uses' => 'FilesController@upload']);

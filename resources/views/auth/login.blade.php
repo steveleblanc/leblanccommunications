@@ -1,8 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.appMain')
 @section('content')
+<section>
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+    <div class="">
+    <h2 class="featurette-heading">Support</h2>
+    <div class="col-md-5">            
+            <p class="featurette-text">
+                Please login to access your support tickets and tools.
+            </p>
+            <p class="featurette-text">
+                If you do not have a login you may register or contact us.
+            </p>
+        </div>
+        <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">
@@ -64,4 +74,5 @@
         </div>
     </div>
 </div>
+</section>
 @endsection

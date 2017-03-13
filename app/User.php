@@ -29,7 +29,7 @@ class User extends Authenticatable
 
     public function user()
     {
-        return $this->hasMany(File::class);
+        return $this->hasMany(UploadedFile::class);
         //return $this->hasMany(User::class);
 
     }
