@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="featurette-image img-fluid mx-auto" src="images/website-design.jpg" alt="Business Websites">
+                    <img class="featurette-image img-fluid mx-auto" src="images/website-design-2.jpg" alt="Business Websites">
                 </div>
             </div>
         </div><!-- container -->        
@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row featurette">
                 <div class="col-md-6">
-                    <img class="featurette-image img-fluid mx-auto" src="images/business-websites.png" alt="Business Websites">
+                    <img class="featurette-image img-fluid mx-auto" src="images/site-img107-e1439871618439.png" alt="Business Websites">
                 </div>
                 <div class="col-md-6">
                     <div class="featurette-heading">LEAD GENERATION</div>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="featurette-image img-fluid mx-auto" src="images/business-websites.png" alt="Business Websites">
+                    <img class="featurette-image img-fluid mx-auto" src="images/website-apps.jpg" alt="Business Websites">
                 </div>
             </div>
         </div><!-- container -->        
@@ -90,20 +90,9 @@
 
 <!-- Contact
     ================================================== -->
-<section class="area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="featurette-heading">Contact Me</div>
-                </div>
-                <div class="col-md-6" align="top">
-                    <h3>Steve Leblanc</h3>
-                    <p>Murphy, NC
-                        <br>28906</p>
-                </div><!-- col-md-5 -->            
-            </div>
-            </div>
-</div><!-- class="col-md-12" -->
-</section>
+
+<div class="shoutQuote">
+    Get A Free Quote On Website Services <a href="contact" class="btn btn-lg btn-warning">Free Quote</a>
+</div>
 @include('includes.footer')
 @endsection
