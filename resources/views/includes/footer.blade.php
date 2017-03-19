@@ -1,6 +1,28 @@
-<div class="footer">
-<div id="copyright text-right">© Copyright 2017 Steve Leblanc</div>
+<div class="footer col-md-12">
+    <div class="container">
+        <div class="col-md-4">
+            <h5>QUICK LINKS</h5>
+            <a href="/">Home</a><br>
+            <a href="website-design">Website Services</a><br>
+            <a href="support">Support</a><br>
+            <a href="contact">Contact Us</a><br>
+        </div>
+        <div class="col-md-4">
+            <h5>Leblanc Communications</h5>
+            Murphy, NC<br>
+            28906<br>
+            (828)557-5059<br>
+        </div>
+        <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26116.97246139194!2d-84.0411505726754!3d35.09118735678553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885ee1feb10a4a35%3A0xff4ae61dee69ce2b!2sMurphy%2C+NC+28906!5e0!3m2!1sen!2sus!4v1489549809337" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>
+<!-- Bottom footer -->
+<div class="footerSig">
+<div class=""><a href="/"><img src="../images/logo-leblanc-communications-footer.jpg"></a> | Copyright © 1995 - 2017
+</div>
+</div><!-- end Bottom footer -->
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
