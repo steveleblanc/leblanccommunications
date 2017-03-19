@@ -187,27 +187,6 @@ margin: 0 auto;
   text-align: center;
   text-decoration: none;
 }
-.shoutQuote {  
-  background: #0088CC;
-  font-size: 32px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-}
-.shoutQuote .btn-lg {
-  margin-left: 20px;
-  margin-bottom: 5px;
-  padding: 10px 20px;
-  font-weight: bold;
-  background-color: orange;
-}
-.shoutQuote .btn-lg:hover {
-  margin-left: 20px;
-  padding: 10px 20px;
-  font-weight: bold;
-  background-color: #FF9100;
-}
 
 /*Portfolio
 -------------------------------------------------------------*/
@@ -341,24 +320,12 @@ font-weight: bold;
 /************
 footer*/
 .footer {
-  background-color: #354046;
+  background-color: #3A5765;
   color: white;
   min-height: 80px;
-  text-align: left;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.footer a {
-  color: white;
-  text-align: left;
-}
-.footerSig {
-  background-color: #364851;
-  color: white;
-  text-align: center;
-}
-.footerSig img {
-  width: 8%;
 }
 
 
@@ -561,9 +528,7 @@ section.area {
   letter-spacing: -1px;
 }
 .fileUploader {
-  background-color: #eee;
-  padding: 10px;
-
+  background-color: #eee
 }
 .fileUploaderImg {
   max-width: 180px;
