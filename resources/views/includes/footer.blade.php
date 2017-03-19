@@ -49,4 +49,4 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
     <script src="js/test-navbar.js"></script>
-    <script src="js/flash.js"></script>   
+    <script src="js/flash.js"></script>
